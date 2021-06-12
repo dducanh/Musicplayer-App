@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/font/fontawesome-free-5.15.3-web/css/all.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="player">
+      <div class="music_control">
+        <div class="player__dashboard">
+          <header>
+            <h4>Playlist</h4>
+            <h3>Best Vibes of the Week</h3>
+          </header>
+          <div class="player--song__banner">
+            <img
+              src=""
+              alt=""
+              class="player--song__image"
+            />
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1484662020986-75935d2ebc66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                alt=""
+                class="player--song__singer"
+              />
+            </div>
+          </div>
+  
+          <div class="player--infor">
+            <div class="player--infor__name">Hold on</div>
+            <div class="player--infor__singer">Justin Bieber</div>
+          </div>
+        </div>
+        <div class="player__handle">
+          <audio id="audio" src=""></audio>
+          <div class="player__handle__progress">
+            <div class="player__handle__progress-percent"></div>
+          </div>
+          <div class="player-time">
+            <span class="player-time__start">0:00</span>
+            <span class="player-time__end">3:50</span>
+          </div>
+          <div class="player__control">
+            <i class="fas fa-redo-alt icon_reload player-icon"></i>
+            <i class="fas fa-angle-double-left icon_previous player-icon"></i>
+            <i class="fas fa-pause icon_pause player-icon"></i>
+            <i class="fas fa-play icon_play player-icon"></i>
+            <i class="fas fa-angle-double-right icon_next player-icon"></i>
+            <i class="fas fa-random icon_random player-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="playlist">
+        <div class="playlist__item"></div>
+      </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
